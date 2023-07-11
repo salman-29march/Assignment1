@@ -1,0 +1,172 @@
+/* style for all */
+* {
+  font-family       : "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* button related style here */
+.button {
+  background        : rgb(252, 160, 175);
+  border            : none;
+  color             : black;
+  border-radius     : 5px;
+  padding           : 10px;
+  font-weight       : bold;
+  font-size         : large;
+  margin-left       : 140px;
+  margin-bottom     : 120px;
+}
+  .button           : hover {
+  color             : azure;
+}
+/* header related style */
+.header {
+  background-color  : rgb(252, 232, 246);
+  /* background     : size 90vh ; */
+}
+#p1 {
+  font-size         : 42px;
+  font-weight       : bold;
+}
+#p2 {
+  margin-top        : 0px;
+}
+.content {
+  margin            : 15px;
+}
+.section {
+  display           : flex;
+  justify-content   : space-between;
+  background        : rgb(255, 228, 232);
+  background-size   : content;
+}
+.section img {
+  height            : 680px;
+  width             : 500px;
+  position          : top right;
+  margin-top        : 20px;
+  margin-bottom     : 0px;
+  margin-right      : 140px;
+}
+.section p {
+  margin-top        : 140px;
+  margin-left       : 140px;
+}
+
+/* main parts style here */
+
+.ractangle {
+  width             : 200px;
+  align-items       : center;
+  border-radius     : 60px 60px 0px 0px;
+  padding-left      : ;
+}
+.email-sub {
+  color             : rgb(169, 22, 22);
+  background        : rgb(237, 88, 113);
+  position          : center;
+  text-align        : center;
+  text-shadow       : 2px 2px;
+}
+.email-sub button {
+  columns           : block;
+  background        : rgb(131, 210, 250);
+  border-radius     : 5px;
+  border            : none;
+  font-size         : 12px;
+  padding           : 10px;
+}
+  .email-sub button : hover {
+  color             : aliceblue;
+  background        : rgb(136, 138, 139);
+}
+.center {
+  text-align        : center;
+}
+.coupon {
+  padding           : 70px;
+  text-align        : center;
+  background-image  : url(../Flower-Asset/Rectangle\ 9.png);
+  background-size   : content;
+}
+.discount {
+  text-align        : center;
+  background        : rgb(250, 240, 245);
+  background-size   : content;
+  padding           : 20px;
+  margin-top        : 30px;
+  margin-bottom     : 30px;
+  padding-left      : 150px;
+}
+.discount button {
+  border            : none;
+  color             : rgb(42, 41, 41);
+  background        : rgb(237, 114, 135);
+  padding           : 10px;
+  font-size         : 20px;
+  font-weight       : bold;
+  border-radius     : 5px;
+  position          : center;
+  padding-bottom    : 20px;
+  margin-left       : 33%;
+  margin-left       : 10px;
+}
+  .discount button  : hover {
+  color             : rgb(250, 246, 246);
+}
+.discount img {
+  height            : 200px;
+  width             : 250px;
+  position          : top right;
+  margin-top        : 20px;
+  margin-bottom     : 0px;
+  margin-right      : 0px;
+  padding-left      : 0px;
+}
+.discount h2 {
+  font-size         : 30px;
+}
+.discount p {
+  font-size         : 15px;
+}
+#off {
+  color             : tomato;
+  font-size         : 40px;
+}
+
+.instagram {
+  text-align        : center;
+  background        : rgb(251, 243, 243);
+  margin            : 20px 0px;
+}
+.four-border {
+  border            : 10px solid rgb(247, 239, 239);
+}
+.four-flower img {
+  width             : 150px;
+  height            : 200px;
+}
+
+/* footer style here */
+.footer-bg {
+  background        : black;
+  padding           : 30px;
+  margin-top        : 20px;
+}
+
+.footer p {
+  text-align        : center;
+  color             : rgb(212, 206, 206);
+}
+.date {
+  text-align        : center;
+  color             : rgb(200, 192, 192);
+}
+#flower {
+  color             : rgb(228, 54, 54);
+  font-size         : 40px;
+  font-weight       : bold;
+}
+#shop {
+  color             : rgb(255, 255, 255);
+  font-size         : 40px;
+  font-weight       : bold;
+}
